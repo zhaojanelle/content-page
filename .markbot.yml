@@ -1,0 +1,59 @@
+repo: 'content-page'
+canvasCourse: 'web-dev-3'
+
+naming: true
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
+
+html:
+  - path: 'index.html'
+    valid: true
+    bestPractices: true
+    outline: true
+    has:
+      - 'link[href*="fonts.googleapis.com"]'
+      - ['link[href*="type.css"] + link[href*="main.css"]', 'The `type.css` file must come before the `main.css` file.']
+      - 'article'
+      - 'h1'
+      - 'hr'
+      - 'br'
+      - 'header'
+      - 'footer'
+      - 'article > p'
+      - 'blockquote'
+      - 'blockquote > p'
+      - 'blockquote > footer'
+      - 'blockquote > footer > cite'
+    search:
+      - 'Queen of the Black Coast'
+      - 'By Robert E. Howard, 1934'
+      - '1. Conan Joins the Pirates'
+      - 'The Song of Bélit'
+      - 'Hoofs drummed down the street that sloped to the wharfs'
+      - 'I am Conan, a Cimmerian'
+      - '…'
+      - 'text-'
+      - 'gutter-'
+      - 'push-'
+      - 'pad-'
+      - 'hang-punc'
+      - 'max-length|wrapper'
+      - 'micro|milli|kilo|mega|giga|tera|peta|exa|zetta|yotta'
+      - 'italic'
+      - 'not-italic'
+      - 'bold|not-bold'
+
+css:
+  - path: 'css/main.css'
+    locked: true
+  - path: 'css/type.css'
+    locked: true
+
+screenshots:
+  - path: 'index.html'
+    sizes: [320, 400, 608, 960, 1440]
