@@ -1,6 +1,6 @@
 ---
 summary: 'Using a big chunk of content and Typografier, design the content to it looks properly formatted.'
-time: '1 hour'
+time: '2 hours'
 deliverables: '1 HTML file, 2 CSS files, images'
 ---
 
@@ -18,7 +18,7 @@ deliverables: '1 HTML file, 2 CSS files, images'
 
 ## Details
 
-- *Typefaces:* `PT Serif`<br>(It’s already in the CSS, but you’ll need to insert it into the HTML [Regular 400, Italic 400, Bold 700].)
+- *Typefaces:* `PT Serif` (Regular 400, Italic 400, Bold 700)<br>(It’s already in the CSS, but you’ll need to insert it into the HTML.)
 
 ---
 
